@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form action="" onsubmit="test()">
+
+        <input type="text" onkeydown="test()"><br> 
+        <input type="text" onkeypress="test()"><br> 
+        <input type="text" onkeyup="test()"><br> 
+        <input type="text" onfocus="test()"><br> 
+        <input type="text" onblur="test()"><br>
+
+        <select name="" id="" onchange="test()">
+            <option value="">India</option>
+            <option value="">Usa</option>
+            <option value="">bali</option>
+            <option value="">vietnam</option>
+         </select>
+
+         <input type="text" onselect="test()">
+          <input type="submit">
+           <input type="email" oninvalid="test()">
+           <input type="submit">
+    </form>
+
+
+    <script>
+
+         /*
+        keydown
+        keypress
+        keyup
+        focus
+        blur
+        change
+        select
+        submit
+        invalid
+        */
+
+        function test(){
+            alert("this is an alert")
+        }
+    </script>
+</body>
+</html>
